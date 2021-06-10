@@ -3,6 +3,7 @@ import Card from "./components/Card";
 import Data from "./data.json";
 import Card1 from "./components/Card1";
 import STATE from "./STATE";
+import CONDITIONAL_RENDERING from "./CONDITIONAL_RENDERING/index";
 
 function App() {
     return <div>
@@ -12,6 +13,7 @@ function App() {
         }
         <Card1 name="Class component" />
         <STATE />
+        <CONDITIONAL_RENDERING />
     </div>
 }
 
